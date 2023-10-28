@@ -5,9 +5,9 @@ import { db, auth } from '../firebaseConfig';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import { CircularProgress } from '@mui/material';
-import UserTableData from './Components/UserTableData';
-import Graph from './Components/Graph';
-import UserInfo from './Components/UserInfo';
+import UserTableData from '../Components/UserTableData';
+import Graph from '../Components/Graph';
+import UserInfo from '../Components/UserInfo';
 
 const UserPage = () => {
   const [data, setData] = useState([]);

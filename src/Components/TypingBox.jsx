@@ -1,8 +1,8 @@
 import React, { createRef, useEffect, useRef, useState, useMemo } from 'react'
 import { generate } from "random-words";
 import { useTestMode } from '../Context/TestModeContext';
-import UpperMenu from './Components/UpperMenu';
-import Stats from './Components/Stats';
+import UpperMenu from './UpperMenu';
+import Stats from './Stats';
 import RefreshIcon from '@mui/icons-material/Refresh';
 import { useNavigate } from 'react-router-dom';
 
